@@ -19,7 +19,7 @@ const config = {
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
   organizationName: 'sjhello', // Usually your GitHub org/user name.
-  projectName: 'sjhello Wiki', // Usually your repo name.
+  projectName: 'Wiki', // Usually your repo name.
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
 
@@ -40,17 +40,11 @@ const config = {
           showLastUpdateAuthor: true,
           showLastUpdateTime: true,
           sidebarPath: require.resolve('./sidebars.js'),
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+          editUrl: 'https://github.com/sjhello/Wiki/blob/main/'
         },
         blog: {
           showReadingTime: true,
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+          editUrl: 'https://github.com/sjhello/Wiki/blob/main/'
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -86,53 +80,14 @@ const config = {
         ],
       },
       footer: {
-      //   style: 'dark',
-      //   links: [
-      //     {
-      //       title: 'Docs',
-      //       items: [
-      //         {
-      //           label: 'Tutorial',
-      //           to: '/docs/intro',
-      //         },
-      //       ],
-      //     },
-      //     {
-      //       title: 'Community',
-      //       items: [
-      //         {
-      //           label: 'Stack Overflow',
-      //           href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-      //         },
-      //         {
-      //           label: 'Discord',
-      //           href: 'https://discordapp.com/invite/docusaurus',
-      //         },
-      //         {
-      //           label: 'Twitter',
-      //           href: 'https://twitter.com/docusaurus',
-      //         },
-      //       ],
-      //     },
-      //     {
-      //       title: 'More',
-      //       items: [
-      //         {
-      //           label: 'Blog',
-      //           to: '/blog',
-      //         },
-      //         {
-      //           label: 'GitHub',
-      //           href: 'https://github.com/facebook/docusaurus',
-      //         },
-      //       ],
-      //     },
-      //   ],
         copyright: `Copyright © ${new Date().getFullYear()} sjhello, Inc. Built with Docusaurus.`,
       },
       prism: {
         theme: lightCodeTheme,
         darkTheme: darkCodeTheme,
+      },
+      colorMode: {
+        defaultMode: 'dark'
       },
     }),
 };
