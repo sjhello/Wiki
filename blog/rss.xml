@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
     <channel>
         <title>sjhello Wiki Blog</title>
-        <link>https://your-docusaurus-test-site.com/blog</link>
+        <link>https://sjhello.github.io/blog</link>
         <description>sjhello Wiki Blog</description>
         <lastBuildDate>Thu, 15 Jun 2023 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
@@ -10,8 +10,8 @@
         <language>en</language>
         <item>
             <title><![CDATA[Wiki]]></title>
-            <link>https://your-docusaurus-test-site.com/blog/blog</link>
-            <guid>https://your-docusaurus-test-site.com/blog/blog</guid>
+            <link>https://sjhello.github.io/blog/blog</link>
+            <guid>https://sjhello.github.io/blog/blog</guid>
             <pubDate>Thu, 15 Jun 2023 00:00:00 GMT</pubDate>
             <description><![CDATA[sjhello Wiki]]></description>
             <content:encoded><![CDATA[<p>sjhello Wiki</p>]]></content:encoded>
