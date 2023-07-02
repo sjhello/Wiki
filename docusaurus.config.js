@@ -40,7 +40,7 @@ const config = {
           showLastUpdateAuthor: true,
           showLastUpdateTime: true,
           sidebarPath: require.resolve('./sidebars.js'),
-          editUrl: 'https://github.com/sjhello/Wiki/blob/main/'
+          editUrl: 'https://github.com/sjhello/wiki/commits/main/'
         },
         blog: {
           showReadingTime: true,
